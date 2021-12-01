@@ -1,9 +1,9 @@
 .idea/
 
 # Jekyll
-_site/
-*-cache/
-.jekyll-metadata
+#_site/
+#*-cache/
+#.jekyll-metadata
 
 # Ruby
 .bundle/
