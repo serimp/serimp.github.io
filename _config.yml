@@ -23,10 +23,13 @@ plugins:
 # Site settings
 url: 'https://serimp.github.io'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Powered by Jekyll Alembic'
+description: 'Where does the description goes '
 permalink: pretty
 logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+repo: "https://github.com/daviddarnes/alembic"
+email: "me@daviddarnes.com"
+
 
 # Pagination
 paginate: 5
@@ -40,11 +43,21 @@ navigation_header:
   url: /about/
 - title: Blog
   url: /blog/
-
+- title: Categories
+  url: /categories/
+- title: Search
+  url: /search/
 # Footer nav
 navigation_footer:
 - title: Back to top
   url: "#top"
+
+social_links:
+  Twitter: https://twitter.com/DavidDarnes
+  LinkedIn: https://www.linkedin.com/in/daviddarnes
+  GitHub: https://github.com/daviddarnes
+  link: https://darn.es
+  RSS: /feed.xml
 
 # Collections
 collections:
