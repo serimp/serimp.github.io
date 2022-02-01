@@ -41,7 +41,7 @@ navigation_header:
   url: /
 - title: About
   url: /about/
-- title: Blog
+- title: Dev
   url: /blog/
 - title: Categories
   url: /categories/
