@@ -20,20 +20,10 @@ plugins:
 - jemoji
 - jekyll-remote-theme
 
-# Site settings
-url: 'https://serimp.github.io'
-baseurl: ''
-title: 'Powered by Jekyll Alembic'
-description: 'Where does the description goes '
-permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
-repo: "https://github.com/daviddarnes/alembic"
-email: "me@daviddarnes.com"
-
 
 # Pagination
 paginate: 5
-paginate_path: blog/page:num
+paginate_path: dev/page:num
 
 # Header nav
 navigation_header:
@@ -42,8 +32,8 @@ navigation_header:
 - title: About
   url: /about/
 - title: Dev
-  url: /blog/
-- title: Categories
+  url: /dev/
+- title: Miscellaneous
   url: /categories/
 - title: Search
   url: /search/
@@ -52,12 +42,6 @@ navigation_footer:
 - title: Back to top
   url: "#top"
 
-social_links:
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
-  RSS: /feed.xml
 
 # Collections
 collections:
@@ -83,3 +67,38 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+
+
+
+
+# Site settings
+url: 'https://serimp.github.io'
+baseurl: ''
+title: 'Powered by Jekyll Alembic'
+description: 'Where does the description goes '
+permalink: pretty
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+repo: "https://github.com/serimp/"
+email: "sparkinthebay@gmail.com"
+
+
+
+social_links:
+  Twitter: https://twitter.com/DavidDarnes
+  LinkedIn: https://www.linkedin.com/in/daviddarnes
+  GitHub: https://github.com/daviddarnes
+  link: https://darn.es
+  RSS: /feed.xml
+
+
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+
+fonts:
+  preconnect_urls:
+    - https://fonts.gstatic.com
+  font_urls:
+    - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped
