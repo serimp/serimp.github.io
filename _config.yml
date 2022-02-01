@@ -101,4 +101,4 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped
+    - https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;700&display=swap
