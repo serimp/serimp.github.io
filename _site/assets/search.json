@@ -23,20 +23,6 @@
   
   
   {
-    "title": "About me",
-    "excerpt": "\n",
-    "content": "Hi there\n",
-    "url": "/about/"
-  },
-  
-  {
-    "title": "Categories",
-    "excerpt": "Category index\n",
-    "content": "\n",
-    "url": "/categories/"
-  },
-  
-  {
     "title": "Blog",
     "excerpt": "\n",
     "content": "\n",
@@ -46,15 +32,8 @@
   {
     "title": "Nice to e-meet you! [:wave:]",
     "excerpt": "\n",
-    "content": "This is a personal space dedicated to the things that I adore,\nthat sparks joy so much in me that I can’t stop talking about that I decided to vent anonymously.\nAnd yes, those do include all the engineering hacks that I developed at work. :p\n\nBut on the other side of that joy, there are disappointment and frustration achieving mastery.\nLook at this 5 step pathway to mastery learning curve:\n\n\n\nLot of the times, I am stuck at the global minimum and unable to accelerate myself out of it.\nHope this blogging exercise will make by turning point and spring me upwards.\n\nHappy Learning!\n\n",
+    "content": "This is a personal space dedicated to the things that I adore,\nthat sparks joy so much in me that I can’t stop talking about that I decided to vent anonymously.\nAnd yes, those do include all the engineering hacks that I developed at work. :p\n\nBut on the other side of that joy, there are disappointment and frustration achieving mastery.\nLook at this 5 step pathway to mastery learning curve:\n\n\n\nLot of the times, I am stuck at the global minimum and unable to accelerate myself out of it.\nHope this blogging exercise will make by turning point and spring me upwards.\n\nHappy Learning!\n\n\ntwitter\n\nlinkedin\n\ngithub\n\n\n\n\n",
     "url": "/"
-  },
-  
-  {
-    "title": "Search",
-    "excerpt": "Search for a page or post you’re looking for\n",
-    "content": "\n  \n    Search term:\n    \n\n    \n        \n    \n  \n\n\n\n\n\n\nPlease enable JavaScript to use the search form.\n",
-    "url": "/search/"
   }
   
 ]

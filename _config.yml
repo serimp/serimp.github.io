@@ -1,13 +1,13 @@
 # Set theme
 remote_theme: daviddarnes/alembic@main
 
-# File excludes
+# 1. Files excluded from Jekyll builds
 exclude:
 - README.md
 - Gemfile
 - Gemfile.lock
 
-# Set plugins
+# 2. Installed Gems
 plugins:
 - jekyll-sitemap
 - jekyll-mentions
@@ -21,29 +21,29 @@ plugins:
 - jekyll-remote-theme
 
 
-# Pagination
+# 3. Gem settings
 paginate: 5
 paginate_path: dev/page:num
 
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Dev
-  url: /dev/
-- title: Miscellaneous
-  url: /categories/
-- title: Search
-  url: /search/
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
+social:
+  name: Serim Park
+  links:
+  - https://twitter.com/sparkinthebay
+  - https://www.linkedin.com/in/serim-park-aa898741/
+  - https://github.com/serimp
 
 
-# Collections
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: USA/Los Angeles # Timezone for blog posts and alike
+
+
+
+# 5. Collections
 collections:
   posts:
     title: Posts
@@ -51,9 +51,9 @@ collections:
     description: "My thoughts and ideas"
     feature_text: |
       Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "assets/AdobeStock_257661067.jpeg"
 
-# Collection settings
+# 6. Collection settings
 defaults:
   -
     scope:
@@ -69,28 +69,47 @@ defaults:
       layout: page # Set the default layout for pages
 
 
-
-
-# Site settings
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+lang: en # Set the site language
 url: 'https://serimp.github.io'
-baseurl: ''
-title: 'Powered by Jekyll Alembic'
-description: 'Where does the description goes '
+baseurl: ""
+title: 'Daily log'
+description: 'Daily log'
 permalink: pretty
-logo: "images/shutterstock_1044115246.png"
+logo: "/assets/logos/shutterstock_1044115246.png"
 repo: "https://github.com/serimp/"
 email: "sparkinthebay@gmail.com"
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 
 
-social_links:
-  Twitter: https://twitter.com/sparkinthebay
-  LinkedIn: https://www.linkedin.com/in/serim-park-aa898741/
-  GitHub: https://github.com/serimp
-#  link: https://darn.es
-  RSS: /feed.xml
+# 9. Site navigation
+navigation_header:
+- title: Home
+  url: /
+#- title: About
+#  url: /about/
+#- title: Dev
+#  url: /dev/
+#- title: Miscellaneous
+#  url: /categories/
+#- title: Search
+#  url: /search/
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+navigation_footer:
+- title: Serim Park
+  url: https://github.com/serimp
 
 
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+    Twitter: https://twitter.com/sparkinthebay
+    LinkedIn: https://www.linkedin.com/in/serim-park-aa898741/
+    GitHub: https://github.com/serimp
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"

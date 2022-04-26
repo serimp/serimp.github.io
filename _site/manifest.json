@@ -1,7 +1,7 @@
 {
-  "lang": "en-US",
-  "name": "Powered by Jekyll Alembic",
-  "short_name": "PoweredbyJekyllAlembic",
+  "lang": "en",
+  "name": "Daily log",
+  "short_name": "Dailylog",
   "theme_color": "#24292e",
   "background_color": "#ffffff",
   "start_url": "/",
