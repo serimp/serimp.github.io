@@ -1,8 +1,8 @@
-const version = '20220201121002';
+const version = '20220426091505';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/wine/2022/02/01/gamay/","/dev/2022/02/01/custom-lookup-tf-graph/","/about/","/categories/","/dev/","/","/search/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/wine/2022/02/01/gamay/","/dev/2022/02/01/custom-lookup-tf-graph/","/about/","/categories/","/dev/","/","/search/","/manifest.json","/assets/search.json","/assets/styles.css","/redirects.json","/sitemap.xml","/robots.txt","/feed.xml","/images/shutterstock_1044115246.png", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 
